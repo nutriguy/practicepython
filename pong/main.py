@@ -22,7 +22,7 @@ class PongPaddle(Widget):
             bounced = Vector(-1 * vx, vy)
             vel = bounced * 1.1
             ball.velocity = vel.x, vel.y + offset
-
+#this is a comment
 
 class PongBall(Widget):
     velocity_x = NumericProperty(0)
